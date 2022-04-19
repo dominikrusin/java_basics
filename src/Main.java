@@ -8,8 +8,13 @@ public class Main {
         System.out.println("Jak masz na nazwisko?");
         String lastname = scanner.nextLine();
         System.out.println("Ile masz lat?");
-        String age = scanner.nextLine();
+        int age = scanner.nextInt();
         System.out.println("Ceść, " + name + " " + lastname + ", masz " + age + " " + "lat.");
+        if (age > 18){
+            System.out.println("jest super!");
+        } else {
+            System.out.println("jest lipa!");
+        }
 
     }
 
