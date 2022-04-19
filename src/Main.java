@@ -1,11 +1,16 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        String month = "kwiecień";
-        int year = 2022;
-        double day = 19;
-        System.out.println("miesiąc: " + month);
-        System.out.println("rok: " + year);
-        System.out.println("dzień: " + day);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Jak masz na imię?");
+        String name = scanner.nextLine();
+        System.out.println("Jak masz na nazwisko?");
+        String lastname = scanner.nextLine();
+        System.out.println("Ile masz lat?");
+        String age = scanner.nextLine();
+        System.out.println("Ceść, " + name + " " + lastname + ", masz " + age + " " + "lat.");
+
     }
 
 }
