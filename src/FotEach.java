@@ -8,5 +8,7 @@ public class FotEach {
             System.out.println(zmienna);
         }
 
+
+
     }
 }
