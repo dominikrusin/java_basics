@@ -7,7 +7,7 @@ public class bank {
         int cash = scanner.nextInt();
         System.out.println("Chcesz wpłacić podaj kwotę, chcesz wypłacić podaj kwotę z minusem");
         int money = scanner.nextInt();
-        if (0 >= money){
+        if (0 <= money){
             System.out.println("Poszło");
         } else if
         ((cash + money)<0){
